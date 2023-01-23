@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-4 p-5 bg-success text-white rounded">
+        <center><h1>ประวัติส่วนตัว</h1></center>
+        <p>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="{% static 'images/pom.jpg' %}"
+                     width="100%" height="100%">
+            </div>
+            <div class="col-lg-8">
+                <h4>ชื่อ : นายณัฐวัฒน์ ทองคำเหลา</h4>
+                <h4>ชื่อเล่น : ปอม</h4>
+                <h4>เกิดวันที่ : 18 มีนาคม 2544</h4>
+                <h4>กรุ๊ปเลือด : o  สัญชาติ : ไทย  เชื้อชาติ : ไทย  ศาสนา : พุทธ</h4>
+                <h4>ที่อยู่ : 53/4  ตำบลพระลับ อำเภอเมือง จังหวัดขอนแก่น 40000</h4>
+                <h4>Email : natthawat.to@rmuti.ac.th</h4>
+                <h4>เบอร์โทร : 0627129026</h4>
+
+            </div>
+        </div>
+    </div> <br>
+{% endblock %}
